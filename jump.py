@@ -16,6 +16,7 @@ def calculate_jump_distance(speed, airtime):
     distance = speed * airtime # d = r * t
     return distance
 
+# 11. practice
 def calculate_required_speed(distance, airtime):
     """Computes the required horizontal speed given a known distance and airtime.
 
@@ -48,6 +49,6 @@ def main():
     print(f"Airtime: {user_airtime} seconds")
     print(f"Jump distance: {round(jump_distance, 2)} meters")
 
-    
+    # TODO: finish practice problem #11 and call calculate_required_speed() to test it
 
 main()
