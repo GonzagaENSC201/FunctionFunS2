@@ -51,4 +51,8 @@ def main():
 
     # TODO: finish practice problem #11 and call calculate_required_speed() to test it
 
-main()
+# if this python file is run directly, then execute main()
+# run directly: run with debugger or run without debugging (e.g. play icon)
+# run indirectly: it is imported in another file: import jump
+if __name__ == "__main__":
+    main()
